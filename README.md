@@ -20,12 +20,12 @@ It was developed with Android Studio 3.1 with `minSdkVersion 21` using native Ko
 
 ## Screenshots
 
-![Main Screen](https://github.com/aramizu/ragneon/blob/master/screen-1.png?raw=true)
-![Payment Screen](https://github.com/aramizu/ragneon/blob/master/screen-2.png?raw=true)
-![Input Screen](https://github.com/aramizu/ragneon/blob/master/screen-3.png?raw=true)
-![Input Error Screen](https://github.com/aramizu/ragneon/blob/master/screen-4.png?raw=true)
-![Input Loading Screen](https://github.com/aramizu/ragneon/blob/master/screen-5.png?raw=true)
-![History Screen](https://github.com/aramizu/ragneon/blob/master/screen-6.png?raw=true)
+![Main Screen](https://github.com/aramizu/ragneon/blob/master/screen-1.jpg?raw=true)
+![Payment Screen](https://github.com/aramizu/ragneon/blob/master/screen-2.jpg?raw=true)
+![Input Screen](https://github.com/aramizu/ragneon/blob/master/screen-3.jpg?raw=true)
+![Input Error Screen](https://github.com/aramizu/ragneon/blob/master/screen-4.jpg?raw=true)
+![Input Loading Screen](https://github.com/aramizu/ragneon/blob/master/screen-5.jpg?raw=true)
+![History Screen](https://github.com/aramizu/ragneon/blob/master/screen-6.jpg?raw=true)
 
 ## Getting Started
 
