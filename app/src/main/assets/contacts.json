@@ -1,0 +1,38 @@
+[
+  {
+    "clientName": "Anderson Santos",
+    "clientId": 1,
+    "phoneNumber": "(11)95562-8945",
+    "profile": 1
+  },
+  {
+    "clientName": "Bianca Gente Fina",
+    "clientId": 2,
+    "phoneNumber": "(11)97758-9652",
+    "profile": 2
+  },
+  {
+    "clientName": "Débora Pomposa",
+    "clientId": 3,
+    "phoneNumber": "(11)97758-9652",
+    "profile": 3
+  },
+  {
+    "clientName": "Darlene da Terra",
+    "clientId": 4,
+    "phoneNumber": "(17)98465-3245",
+    "profile": 4
+  },
+  {
+    "clientName": "Fabiana Casca Grossa da Santa Maria de Lourdes",
+    "clientId": 5,
+    "phoneNumber": "(16)98854-6425",
+    "profile": 5
+  },
+  {
+    "clientName": "Rafael Aramizu Gomes",
+    "clientId": 6,
+    "phoneNumber": "(11)97749-7071",
+    "profile": 6
+  }
+]

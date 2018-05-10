@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/input_money_dialog_shape"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/view_close_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"/>
+
+    <br.com.ragneon.widgets.UserAvatarListLayout
+        android:id="@+id/item_contact_view_profile_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/item_contact_text_view_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/item_contact_view_profile_image"/>
+
+    <TextView
+        android:id="@+id/item_contact_text_view_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_below="@+id/item_contact_text_view_name"/>
+
+    <TextView
+        android:id="@+id/view_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:text="@string/send_money_info"
+        android:layout_below="@+id/item_contact_text_view_phone_number"/>
+
+    <EditText
+        android:id="@+id/edit_text_input_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="@color/default_font_color"
+        android:inputType="numberPassword|number|phone"
+        android:maxLength="12"
+        android:digits="0123456789"
+        android:text="R$ 0,00"
+        android:textStyle="bold"
+        android:textSize="42sp"
+        android:background="@drawable/rounded_input_text_shape"
+        android:layout_below="@+id/view_info"/>
+
+    <TextView
+        android:id="@+id/text_view_error_massage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/error_color"
+        android:textSize="12sp"
+        android:text="@string/error_input_budget_message"
+        android:visibility="gone"
+        android:layout_below="@+id/edit_text_input_money"/>
+
+    <br.com.ragneon.widgets.LoadingButton
+        android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/text_view_error_massage"/>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:id="@+id/item_contact_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:background="?attr/selectableItemBackground">
+
+    <br.com.ragneon.widgets.UserAvatarListLayout
+        android:id="@+id/item_contact_view_profile_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/item_contact_view_profile_image"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="12.7dp">
+
+        <TextView
+            android:id="@+id/item_contact_text_view_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_font_color"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/item_contact_text_view_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_font_color"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/default_font_color"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>

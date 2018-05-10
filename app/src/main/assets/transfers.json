@@ -1,0 +1,79 @@
+[
+  {
+    "Id": 0,
+    "ClienteId": 1,
+    "Valor": 24,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  },
+  {
+    "Id": 1,
+    "ClienteId": 2,
+    "Valor": 10,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  },
+  {
+    "Id": 2,
+    "ClienteId": 2,
+    "Valor": 15.5,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  },
+  {
+    "Id": 3,
+    "ClienteId": 3,
+    "Valor": 24,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  },
+  {
+    "Id": 4,
+    "ClienteId": 3,
+    "Valor": 5,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  },
+  {
+    "Id": 5,
+    "ClienteId": 3,
+    "Valor": 89.7,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  },
+  {
+    "Id": 6,
+    "ClienteId": 5,
+    "Valor": 49.5,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  },
+  {
+    "Id": 7,
+    "ClienteId": 5,
+    "Valor": 24,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  },
+  {
+    "Id": 8,
+    "ClienteId": 6,
+    "Valor": 24,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  },
+  {
+    "Id": 9,
+    "ClienteId": 1,
+    "Valor": 24,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  },
+  {
+    "Id": 10,
+    "ClienteId": 3,
+    "Valor": 17.9,
+    "Token": "1d40d305-c836-43a2-b4db-acc56bcc1393",
+    "Data": "2016-08-02T14:25:37.55"
+  }
+]

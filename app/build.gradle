@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'realm-android'
+
+apply from: 'dependencies.gradle'
+apply from: 'app_config.gradle'
+
+android {
+    repositories {
+        maven { url "https://jitpack.io" }
+        mavenCentral()
+    }
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "br.com.ragneon"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            buildConfigField("String", "BASE_HOST", "\"https://processoseletivoneon.neonhomol.com.br\"")
+        }
+        release {
+            minifyEnabled false
+            buildConfigField("String", "BASE_HOST", "\"https://processoseletivoneon.neonhomol.com.br\"")
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    androidTestImplementation android_test_annotations
+    androidTestImplementation android_test_runner
+    androidTestImplementation android_test_rules
+    androidTestImplementation espresso_core
+
+    testImplementation junit
+
+    implementation android_support_v4_fragment
+    implementation android_appcompat_v7
+    implementation android_design
+    implementation android_cardview_v7
+    implementation rxjava
+    implementation rxandroid
+    implementation rxkotlin
+    implementation dispose_bag
+    implementation retrofit2
+    implementation retrofit2_converter_jackson
+    implementation retrofit2_rx_adapter
+    implementation retrofit2_converter_gson
+    implementation okhhtp3
+    implementation okhttp3_loggin_interceptor
+    implementation kotlin_lib
+    implementation kotlin_jdk7
+    implementation kotterknife
+    implementation frag_nav
+    implementation anko_commons
+    implementation jackson
+    implementation glide
+    implementation glide_transformation
+}
+repositories {
+    mavenCentral()
+}

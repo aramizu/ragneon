@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RAGNeon</string>
+
+    <string name="activity_history_screen_title">HISTÓRICO DE EVENTOS</string>
+    <string name="activity_send_money_screen_title">ENVIAR DINHEIRO</string>
+
+    <string name="button_send_money">ENVIAR DINHEIRO</string>
+    <string name="button_history">HISTÓRICO DE EVENTOS</string>
+
+    <string name="send_money_info">Valor a enviar:</string>
+    <string name="button_send">ENVIAR</string>
+    <string name="error_input_budget_message">Deve ser maior que R$ 0,00</string>
+    <string name="error_no_connection_message">Sem conexão, tente novamente mais tarde</string>
+    <string name="warning_send_money_success">Dinheiro enviado com sucesso!</string>
+</resources>

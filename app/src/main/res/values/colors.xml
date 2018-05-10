@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#282c38</color>
+    <color name="colorPrimaryLight">#175081</color>
+    <color name="colorPrimaryDark">#282c38</color>
+    <color name="colorAccent">#00a6a8</color>
+
+    <color name="white">#FFF</color>
+    <color name="default_font_color">#00a6a8</color>
+    <color name="default_button_color">#00a6a8</color>
+    <color name="bg_input_dialog_color">#39586a</color>
+    <color name="error_color">#ff8c00</color>
+</resources>
