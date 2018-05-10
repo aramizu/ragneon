@@ -14,16 +14,17 @@ class HomeRemoteDataManager(
 ) : HomeContracts.RemoteDataManager {
 
     override fun getCredentials() : Single<User> {
-        /*
         return userService.getCredentials()
                 .map {
                     val user = User(it)
                     realmDataManager.saveUserSession(user)
                     return@map user
                 }
-                */
+
+        /* Mock
         val user = User("867e424c-8c5f-4459-ba8a-da811770fd70")
         realmDataManager.saveUserSession(user)
         return Single.just(user)
+        // End Mock */
     }
 }

@@ -20,16 +20,16 @@ class HistoryRemoteDataManager(
 ) : HistoryContracts.RemoteDataManager {
 
     override fun getTransfers(): Single<ArrayList<Transfer>> {
-        /*
         return bankService.getTransfers(realmDataManager.retrieveUserSession().token)
                 .map { transfers -> transfers.map { Transfer(it) } as ArrayList<Transfer> }
-                */
 
+        /* Mock
         val transfers: ArrayList<TransferResponse> =
                 ObjectMapper().readValue(
                         MockUtils.loadJSONFromAsset(AndroidApplication.applicationContext(), "transfers.json"),
                         object : TypeReference<List<TransferResponse>>() {})
 
         return Single.just(transfers.map { Transfer(it) } as ArrayList<Transfer>)
+        // End Mock */
     }
 }
